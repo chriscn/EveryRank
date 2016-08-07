@@ -36,7 +36,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName());
 				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName());
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName());
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " +player.getDisplayName());
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[YT] " + player.getDisplayName());
 			}
