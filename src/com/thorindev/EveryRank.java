@@ -33,6 +33,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "[ADMIN] " + player.getDisplayName());
 				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName());
 				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName());
+				player.sendMessage(ChatColor.RED + "[ANGUS] " + player.getDisplayName());
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName());
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName());
@@ -59,6 +60,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "[ADMIN] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.RED + "[ANGUS] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
