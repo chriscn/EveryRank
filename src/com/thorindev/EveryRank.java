@@ -45,7 +45,18 @@ public class EveryRank extends JavaPlugin {
 				String Message  = args[0].toString();
 				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.AQUA + "[MVP] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.BLUE + "[HELPER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.RED + "[ADMIN] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
 				return true;
 			}
 			else { 
