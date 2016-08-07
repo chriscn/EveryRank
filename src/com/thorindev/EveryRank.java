@@ -39,6 +39,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[YT] " + player.getDisplayName());
+				return true;
 			}
 			else {
 				player.sendMessage(ChatColor.RED + "You can only have a one word message.");
