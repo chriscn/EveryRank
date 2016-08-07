@@ -18,7 +18,7 @@ public class EveryRank extends JavaPlugin {
 		getLogger().info("Disabling EveryRank");
 	}
 
-	// <command> <message>
+	// <command> < >
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player player = (Player) sender;
 		
@@ -42,22 +42,10 @@ public class EveryRank extends JavaPlugin {
 				return true;
 			}
 			else if(args.length == 1) {
-				String Message = args[1];
-				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.GREEN + "[VIP] "+ ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.AQUA + "[MVP] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.BLUE + "[HELPER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.RED + "[ADMIN] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.RED + "[OWNER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.RED + "[SLOTH] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
-				player.sendMessage(ChatColor.GOLD + "[YT] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				String Message  = args[0].toString();
+				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				return true;
 			}
 			else { 
