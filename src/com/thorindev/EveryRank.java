@@ -17,4 +17,8 @@ public class EveryRank extends JavaPlugin {
 	public void onDisable() {
 		getLogger().info("Disabling EveryRank");
 	}
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+		Player player = (Player) sender;
+		return false;
+	}
 }
