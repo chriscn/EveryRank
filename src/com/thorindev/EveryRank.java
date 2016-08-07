@@ -43,7 +43,7 @@ public class EveryRank extends JavaPlugin {
 			else if(args.length == 1) {
 				String s = args[1];
 				player.sendMessage(ChatColor.GRAY + s);
-				player.sendMessage(ChatColor.GREEN + "[VIP] "+ s));
+				player.sendMessage(ChatColor.GREEN + "[VIP] "+ s);
 				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + s);
 				player.sendMessage(ChatColor.AQUA + "[MVP] " + s);
 				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + s);
