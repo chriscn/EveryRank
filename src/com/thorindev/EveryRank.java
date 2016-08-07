@@ -45,6 +45,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "You can only have a one word message.");
 				return true;
 			}
+			return false;
 		}
 		
 		return false;
