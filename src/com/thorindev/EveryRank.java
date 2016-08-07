@@ -36,9 +36,9 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName());
 				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName());
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName());
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + player.getDisplayName());
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " +player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName());
-				player.sendMessage(ChatColor.GOLD + "[YT]" + player.getDisplayName());
+				player.sendMessage(ChatColor.GOLD + "[YT] " + player.getDisplayName());
 			}
 			else if(args.length == 1) {
 				String s = args[1];
@@ -56,7 +56,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + s);
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + s);
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + s);
-				player.sendMessage(ChatColor.GOLD + "[YT]" + s);
+				player.sendMessage(ChatColor.GOLD + "[YT] " + s);
 			}
 			else { 
 				player.sendMessage(ChatColor.RED + "You can only have a one-or-two word message.");
