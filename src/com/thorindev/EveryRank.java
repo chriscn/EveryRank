@@ -69,7 +69,7 @@ public class EveryRank extends JavaPlugin {
 				return true;
 			}
 			else { 
-				player.sendMessage(ChatColor.RED + "You can only have a one-or-two word message.");
+				player.sendMessage(ChatColor.RED + "I don't know what you did? ");
 				return true;
 			}
 		}
