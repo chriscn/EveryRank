@@ -42,22 +42,22 @@ public class EveryRank extends JavaPlugin {
 				return true;
 			}
 			else if(args.length == 1) {
-				String s = args[1];
-				player.sendMessage(ChatColor.GRAY + s);
-				player.sendMessage(ChatColor.GREEN + "[VIP] "+ s);
-				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + s);
-				player.sendMessage(ChatColor.AQUA + "[MVP] " + s);
-				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + s);
-				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + s);
-				player.sendMessage(ChatColor.BLUE + "[HELPER] " + s);
-				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + s);
-				player.sendMessage(ChatColor.RED + "[ADMIN] " + s);
-				player.sendMessage(ChatColor.RED + "[OWNER] " + s);
-				player.sendMessage(ChatColor.RED + "[SLOTH] " + s);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + s);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + s);
-				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + s);
-				player.sendMessage(ChatColor.GOLD + "[YT] " + s);
+				String Message = args[1];
+				player.sendMessage(ChatColor.GRAY + Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP] "+ Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP] " + Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + Message);
+				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + Message);
+				player.sendMessage(ChatColor.BLUE + "[HELPER] " + Message);
+				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + Message);
+				player.sendMessage(ChatColor.RED + "[ADMIN] " + Message);
+				player.sendMessage(ChatColor.RED + "[OWNER] " + Message);
+				player.sendMessage(ChatColor.RED + "[SLOTH] " + Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + Message);
+				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + Message);
+				player.sendMessage(ChatColor.GOLD + "[YT] " + Message);
 				return true;
 			}
 			else { 
