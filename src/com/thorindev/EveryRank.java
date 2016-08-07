@@ -43,21 +43,21 @@ public class EveryRank extends JavaPlugin {
 			}
 			else if(args.length == 1) {
 				String Message = args[1];
-				player.sendMessage(ChatColor.GRAY + Message);
-				player.sendMessage(ChatColor.GREEN + "[VIP] "+ Message);
-				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + Message);
-				player.sendMessage(ChatColor.AQUA + "[MVP] " + Message);
-				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + Message);
-				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + Message);
-				player.sendMessage(ChatColor.BLUE + "[HELPER] " + Message);
-				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + Message);
-				player.sendMessage(ChatColor.RED + "[ADMIN] " + Message);
-				player.sendMessage(ChatColor.RED + "[OWNER] " + Message);
-				player.sendMessage(ChatColor.RED + "[SLOTH] " + Message);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + Message);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + Message);
-				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + Message);
-				player.sendMessage(ChatColor.GOLD + "[YT] " + Message);
+				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP] "+ ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.BLUE + "[HELPER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.RED + "[ADMIN] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.RED + "[OWNER] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.RED + "[SLOTH] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
+				player.sendMessage(ChatColor.GOLD + "[YT] " + ChatColor.WHITE + player.getDisplayName() + ": " +  Message);
 				return true;
 			}
 			else { 
