@@ -60,6 +60,26 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
 				return true;
 			}
+			else if(args.length == 2) {
+				String Message  = args[0].toString();
+				String Message2 = args[1].toString();
+				
+				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message + Message2);
+				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.AQUA + "[MVP] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.BLUE + "[HELPER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.DARK_GREEN + "[MOD] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.RED + "[ADMIN] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.RED + "[OWNER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.RED + "[SLOTH] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message + Message2);
+				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message + Message2);
+				return true;
+			}
 			else { 
 				player.sendMessage(ChatColor.RED + "You can only have a one-or-two word message.");
 				return true;
