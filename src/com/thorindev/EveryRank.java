@@ -55,7 +55,7 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.RED + "[OWNER] " + Message);
 				player.sendMessage(ChatColor.RED + "[SLOTH] " + Message);
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM] " + Message);
-				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+] " + ChatColor.DARK_AQUA + Message);
+				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + Message);
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + Message);
 				player.sendMessage(ChatColor.GOLD + "[YT] " + Message);
 				return true;
