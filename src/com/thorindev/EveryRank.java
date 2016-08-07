@@ -14,9 +14,7 @@ public class EveryRank extends JavaPlugin {
 		getLogger().info("EveryRank Made By ThorinDev");
 	}
 	@Override
-	public void onDisable() {
-		getLogger().info("Disabling EveryRank");
-	}
+	public void onDisable() {}
 
 	// <command> < >
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
