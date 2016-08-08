@@ -38,6 +38,8 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName());
 				player.sendMessage(ChatColor.GOLD + "[YT] " + player.getDisplayName());
+				player.sendMessage(ChatColor.GOLD + "[APPLE] " + player.getDisplayName());
+				player.sendMessage(ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "] " + player.getDisplayName());
 				
 				return true;
 			}
@@ -66,6 +68,9 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.DARK_AQUA + "[BUILD TEAM" + ChatColor.RED + "+" + ChatColor.DARK_AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.GOLD + "[MOJANG] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
 				player.sendMessage(ChatColor.GOLD + "[YT] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
+				player.sendMessage(ChatColor.GOLD + "[APPLE] " + player.getDisplayName() + ": " + ChatColor.WHITE + Message);
+				player.sendMessage(ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+
 				
 				return true;
 			}
