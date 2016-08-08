@@ -47,6 +47,7 @@ public class EveryRank extends JavaPlugin {
 				for (String argument : args) {
 					Message += argument;
 					Message += " ";
+					Message = ChatColor.translateAlternateColorCodes('&', Message);
 				}
 				
 				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message);
