@@ -25,6 +25,8 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.GRAY + player.getDisplayName());
 				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName());
 				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName());
+				player.sendMessage(ChatColor.GREEN + "[LOL] "+ player.getDisplayName());
+				player.sendMessage(ChatColor.GREEN + "[LOL" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName());
 				player.sendMessage(ChatColor.AQUA + "[MVP] " + player.getDisplayName());
 				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + player.getDisplayName());
 				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + player.getDisplayName());
@@ -55,6 +57,8 @@ public class EveryRank extends JavaPlugin {
 				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.GREEN + "[LOL] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
+				player.sendMessage(ChatColor.GREEN + "[LOL" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.AQUA + "[MVP] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.AQUA + "[MVP" + ChatColor.RED + ChatColor.RED + "+" + ChatColor.AQUA + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.BLUE + "[JR HELPER] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
