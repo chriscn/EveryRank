@@ -54,7 +54,7 @@ public class EveryRank extends JavaPlugin {
 					Message = ChatColor.translateAlternateColorCodes('&', Message);
 				}
 				
-				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ChatColor.WHITE +  ": " + Message);
+				player.sendMessage(ChatColor.GRAY + player.getDisplayName() + ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[VIP] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[VIP" + ChatColor.GOLD + "+" + ChatColor.GREEN + "] " + player.getDisplayName() + ChatColor.WHITE + ": " + Message);
 				player.sendMessage(ChatColor.GREEN + "[LOL] "+ player.getDisplayName() + ChatColor.WHITE + ": " + Message);
