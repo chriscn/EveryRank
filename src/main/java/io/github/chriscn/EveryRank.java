@@ -52,7 +52,7 @@ public class EveryRank extends JavaPlugin {
                     p.sendMessage(ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "] " + pN);
                     return true;
                 } else if(args.length >= 1) {
-
+                    String msg = buildString(args);
                 }
             }
 
