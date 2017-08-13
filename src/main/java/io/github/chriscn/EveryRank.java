@@ -46,8 +46,8 @@ public class EveryRank extends JavaPlugin {
                         p.sendMessage(rank + " " + pN + ChatColor.WHITE + ": " + msg);
                     }
                 }
+                return true;
             }
-            return false;
         } else {
             return false;
         }
