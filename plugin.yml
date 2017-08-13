@@ -1,8 +1,0 @@
-name: EveryRank
-main: com.thorindev.EveryRank
-author: ThorinDev
-version: 1.0.2
-commands:
-    everyrank:
-        description: You can be every rank!
-        usage: /everyrank message
