@@ -34,7 +34,18 @@ public class EveryRank extends JavaPlugin {
                 Player p = (Player) sender;
                 String pN = p.getDisplayName();
 
-                
+                if(args.length == 0) { //no argument
+                    p.sendMessage(ChatColor.GRAY + pN);
+                    for(String rank : r.ranks) {
+                        p.sendMessage(rank + " " + pN);
+                    }
+                } else {
+                    String msg = buildString(args);
+                    p.sendMessage(ChatColor.GRAY + pN + ": " + msg);
+                    for(String rank : r.ranks) {
+                        p.sendMessage(rank + " " + pN + ChatColor.WHITE + ": " + msg);
+                    }
+                }
             }
             return false;
         } else {
