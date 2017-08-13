@@ -32,7 +32,7 @@ public class EveryRank extends JavaPlugin {
                 return true;
             } else {
                 Player p = (Player) sender;
-                String pN = p.getDisplayName();
+                String pN = args[0];
 
                 if(args.length == 0) { //no argument
                     p.sendMessage(ChatColor.GRAY + pN);
@@ -55,8 +55,8 @@ public class EveryRank extends JavaPlugin {
 
     private String buildString(String[] args) {
         StringBuilder sb = new StringBuilder();
-        for(String s : args) {
-            sb.append(s).append(" ");
+        for(int i = 1; i < args.length; i++) {
+            sb.append(args[i]).append(" ");
         }
         return sb.toString().trim();
     }
