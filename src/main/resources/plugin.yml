@@ -1,0 +1,9 @@
+name: EveryRank
+version: 1.0
+main: io.github.chriscn.EveryRank
+authors: [ThorinDev, Thorin, chriscn]
+description: Hypixel EveryRank!
+website: https://thorindev.co.uk
+commands:
+  everyrank:
+    usage: /everyrank name user
