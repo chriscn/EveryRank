@@ -52,7 +52,7 @@ public class EveryRank extends JavaPlugin {
                     p.sendMessage(ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "] " + pN);
                     return true;
                 } else if(args.length >= 1) {
-                    
+
                 }
             }
 
@@ -60,5 +60,13 @@ public class EveryRank extends JavaPlugin {
         } else {
             return false;
         }
+    }
+
+    private String buildString(String[] args) {
+        StringBuilder sb = new StringBuilder();
+        for(String s : args) {
+            sb.append(s).append(" ");
+        }
+        return sb.toString().trim();
     }
 }
