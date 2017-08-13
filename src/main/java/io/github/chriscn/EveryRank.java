@@ -34,18 +34,7 @@ public class EveryRank extends JavaPlugin {
                 Player p = (Player) sender;
                 String pN = p.getDisplayName();
 
-                if(args.length == 0) {
-                    for(String s : r.ranks) {
-                        p.sendMessage(s + pN);
-                    }
-                    return true;
-                } else if(args.length >= 1) {
-                    if(args[0].equalsIgnoreCase("normal") || args[0].equalsIgnoreCase(pN)) {
-
-                    } else if(args[0])
-                } else {
-                    p.sendMessage(ChatColor.RED + "You somehow broke the code, congrats!");
-                }
+                
             }
             return false;
         } else {
