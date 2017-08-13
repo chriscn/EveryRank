@@ -74,9 +74,10 @@ public class EveryRank extends JavaPlugin {
                     p.sendMessage(ChatColor.GOLD + "[YT] " + pN);
                     p.sendMessage(ChatColor.GOLD + "[APPLE] " + pN);
                     p.sendMessage(ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "] " + pN);
+                } else {
+                    p.sendMessage(ChatColor.RED + "You somehow broke the code, congrats!");
                 }
             }
-
             return false;
         } else {
             return false;
