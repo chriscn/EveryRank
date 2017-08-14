@@ -1,6 +1,7 @@
 package io.github.chriscn;
 
 import io.github.chriscn.commands.AllRanks;
+import io.github.chriscn.commands.RankMessage;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class EveryRank extends JavaPlugin {
@@ -11,6 +12,7 @@ public class EveryRank extends JavaPlugin {
     public void onEnable() {
         getLogger().info(getDescription().getName() + " has been enabled!");
         getCommand("everyrank").setExecutor(new AllRanks());
+        getCommand("rankmessage").setExecutor(new RankMessage());
     }
 
     @Override
