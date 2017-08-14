@@ -25,8 +25,6 @@ public class EveryRank extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(cmd.getName().equalsIgnoreCase("everyrank")) {
-            // everyrank <CUSTOMNAME/playersname> <IF ARGS MESSAGE>
-
             if(!(sender instanceof Player)) {
                 sender.sendMessage(ChatColor.RED + "You must be a player to use this command!");
                 return true;
