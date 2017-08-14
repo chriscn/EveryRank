@@ -16,7 +16,10 @@ public enum RANKS {
     ANGUS(13),
     BUILD_TEAM(14),
     BUILD_TEAM_PLUS(15),
-
+    MOJANG(16),
+    YOUTUBE(17),
+    APPLE(18),
+    MCPROHOSTING(19);
 
 
     private int index;
