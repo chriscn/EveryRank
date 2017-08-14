@@ -19,7 +19,7 @@ public class AllRanks implements CommandExecutor {
             Player p = (Player) sender;
             String pN = args[0];
 
-            if(args.length == 0) { //no argument
+            if(args.length == 1) { //no argument
                 p.sendMessage(ChatColor.GRAY + pN);
                 for(String rank : r.ranks) {
                     p.sendMessage(rank + " " + pN);
