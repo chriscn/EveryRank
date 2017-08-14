@@ -6,4 +6,6 @@ description: Hypixel EveryRank!
 website: https://thorindev.co.uk
 commands:
   everyrank:
-    usage: /everyrank name user
+    usage: /everyrank name user ?msg
+  rankmessage:
+    usage: /rankmessage rank playername msg
