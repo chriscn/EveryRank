@@ -26,7 +26,7 @@ public enum RANKS {
     }
 
     public String getRank() {
-        return new RankUtil().ranks.get(index+1);
+        return new RankUtil().ranks.get(index-1);
     }
 
 }
