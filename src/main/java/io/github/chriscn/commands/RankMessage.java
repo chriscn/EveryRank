@@ -14,7 +14,7 @@ public class RankMessage implements CommandExecutor {
         } else {
             Player p = (Player) sender;
             String pN = args[0];
-            
+
             return true;
         }
     }

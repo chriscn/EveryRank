@@ -4,8 +4,10 @@ public enum RANKS {
     DEFAULT(0),
     VIP(1),
     VIP_PLUS(2),
-    MVP(3),
-    MVP_PLUS(4),
+    LOL(3),
+    LOL_PLUS(4),
+    MVP(5),
+    MVP_PLUS(6),
 
 
 
