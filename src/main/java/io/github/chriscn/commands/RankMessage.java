@@ -110,7 +110,8 @@ public class RankMessage implements CommandExecutor {
     }
 
     private void printHelp(Player p) {
-        p.sendMessage(ChatColor.RED + "I couldn't find the rank that you wanted the please use one of these instead.");
+        p.sendMessage(ChatColor.GREEN + "The usage of this command is: /rankmessage RANK PLAYERNAME MSG");
+        p.sendMessage(ChatColor.GREEN + "I couldn't find the rank that you wanted the please use one of these instead.");
         p.sendMessage(ChatColor.GREEN + "The availiable ranks are:");
         p.sendMessage(ChatColor.GREEN + "default, vip, vip_plus, lol, lol_plus, mvp, mvp_plus, jrhelper, helper, mod, admin, owner, sloth, angus, buildteam, buildteam_plus, mojang, youtube, apple, mcprohosting");
     }
