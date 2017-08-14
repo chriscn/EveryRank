@@ -1,4 +1,6 @@
 package io.github.chriscn.commands;
 
-public class RankMessage {
+import org.bukkit.command.CommandExecutor;
+
+public class RankMessage implements CommandExecutor {
 }
