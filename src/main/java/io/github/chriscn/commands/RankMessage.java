@@ -14,87 +14,90 @@ public class RankMessage implements CommandExecutor {
             return true;
         } else {
             Player p = (Player) sender;
-            String rank = args[0].toLowerCase();
-            String pN = args[1];
+            if(args.length < 3) {
+                printHelp(p);
+            } else if(args.length >= 3) {
+                String rank = args[0].toLowerCase();
+                String pN = args[1];
 
-            StringBuilder sb = new StringBuilder();
-            for(int i = 2; i < args.length; i++) {
-                sb.append(args[i]).append(" ");
+                StringBuilder sb = new StringBuilder();
+                for (int i = 2; i < args.length; i++) {
+                    sb.append(args[i]).append(" ");
+                }
+
+                String msg = ChatColor.translateAlternateColorCodes('&', sb.toString().trim());
+
+                switch (rank) {
+                    default:
+                        printHelp(p);
+                        break;
+                    case "":
+                        printHelp(p);
+                        break;
+                    case "default":
+                        p.sendMessage(ChatColor.GRAY + pN + ": " + msg);
+                        break;
+                    case "vip":
+                        printMessage(p, pN, RANKS.VIP, msg);
+                        break;
+                    case "vip_plus":
+                        printMessage(p, pN, RANKS.VIP_PLUS, msg);
+                        break;
+                    case "lol":
+                        printMessage(p, pN, RANKS.LOL, msg);
+                        break;
+                    case "lol_plus":
+                        printMessage(p, pN, RANKS.LOL_PLUS, msg);
+                        break;
+                    case "mvp":
+                        printMessage(p, pN, RANKS.MVP, msg);
+                        break;
+                    case "mvp_plus":
+                        printMessage(p, pN, RANKS.MVP_PLUS, msg);
+                        break;
+                    case "jrhelper":
+                        printMessage(p, pN, RANKS.JR_HELPER, msg);
+                        break;
+                    case "helper":
+                        printMessage(p, pN, RANKS.HELPER, msg);
+                        break;
+                    case "mod":
+                        printMessage(p, pN, RANKS.MOD, msg);
+                        break;
+                    case "admin":
+                        printMessage(p, pN, RANKS.ADMIN, msg);
+                        break;
+                    case "owner":
+                        printMessage(p, pN, RANKS.OWNER, msg);
+                        break;
+                    case "sloth":
+                        printMessage(p, pN, RANKS.SLOTH, msg);
+                        break;
+                    case "angus":
+                        printMessage(p, pN, RANKS.ANGUS, msg);
+                        break;
+                    case "buildteam":
+                        printMessage(p, pN, RANKS.BUILD_TEAM, msg);
+                        break;
+                    case "buildteam_plus":
+                        printMessage(p, pN, RANKS.BUILD_TEAM_PLUS, msg);
+                        break;
+                    case "mojang":
+                        printMessage(p, pN, RANKS.MOJANG, msg);
+                        break;
+                    case "youtube":
+                        printMessage(p, pN, RANKS.YOUTUBE, msg);
+                        break;
+                    case "apple":
+                        printMessage(p, pN, RANKS.APPLE, msg);
+                        break;
+                    case "mcprohosting":
+                        printMessage(p, pN, RANKS.MCPROHOSTING, msg);
+                        break;
+                }
+
+                //rankmessage <RANK> <PLAYERNAME> <MESSAGE>
             }
-
-            String msg = ChatColor.translateAlternateColorCodes('&', sb.toString().trim());
-
-            switch(rank) {
-                default:
-                    printHelp(p);
-                    break;
-                case "":
-                    printHelp(p);
-                    break;
-                case "default":
-                    p.sendMessage(ChatColor.GRAY + pN + ": " + msg);
-                    break;
-                case "vip":
-                    printMessage(p, pN, RANKS.VIP, msg);
-                    break;
-                case "vip_plus":
-                    printMessage(p, pN, RANKS.VIP_PLUS, msg);
-                    break;
-                case "lol":
-                    printMessage(p, pN, RANKS.LOL, msg);
-                    break;
-                case "lol_plus":
-                    printMessage(p, pN, RANKS.LOL_PLUS, msg);
-                    break;
-                case "mvp":
-                    printMessage(p, pN, RANKS.MVP, msg);
-                    break;
-                case "mvp_plus":
-                    printMessage(p, pN, RANKS.MVP_PLUS, msg);
-                    break;
-                case "jrhelper":
-                    printMessage(p, pN, RANKS.JR_HELPER, msg);
-                    break;
-                case "helper":
-                    printMessage(p, pN, RANKS.HELPER, msg);
-                    break;
-                case "mod":
-                    printMessage(p, pN, RANKS.MOD, msg);
-                    break;
-                case "admin":
-                    printMessage(p, pN, RANKS.ADMIN, msg);
-                    break;
-                case "owner":
-                    printMessage(p, pN, RANKS.OWNER, msg);
-                    break;
-                case "sloth":
-                    printMessage(p, pN, RANKS.SLOTH, msg);
-                    break;
-                case "angus":
-                    printMessage(p, pN, RANKS.ANGUS, msg);
-                    break;
-                case "buildteam":
-                    printMessage(p, pN, RANKS.BUILD_TEAM, msg);
-                    break;
-                case "buildteam_plus":
-                    printMessage(p, pN, RANKS.BUILD_TEAM_PLUS, msg);
-                    break;
-                case "mojang":
-                    printMessage(p, pN, RANKS.MOJANG, msg);
-                    break;
-                case "youtube":
-                    printMessage(p, pN, RANKS.YOUTUBE, msg);
-                    break;
-                case "apple":
-                    printMessage(p, pN, RANKS.APPLE, msg);
-                    break;
-                case "mcprohosting":
-                    printMessage(p, pN, RANKS.MCPROHOSTING, msg);
-                    break;
-            }
-
-            //rankmessage <RANK> <PLAYERNAME> <MESSAGE>
-
 
 
             return true;
