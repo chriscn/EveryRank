@@ -1,7 +1,6 @@
 package io.github.chriscn;
 
 public enum RANKS {
-    DEFAULT(0),
     VIP(1),
     VIP_PLUS(2),
     LOL(3),
