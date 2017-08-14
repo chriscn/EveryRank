@@ -22,7 +22,7 @@ public class RankMessage implements CommandExecutor {
                 sb.append(args[i]).append(" ");
             }
 
-            String msg = sb.toString().trim();
+            String msg = ChatColor.translateAlternateColorCodes('&', sb.toString().trim());
 
             switch(rank) {
                 default:
