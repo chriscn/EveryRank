@@ -8,6 +8,15 @@ public enum RANKS {
     LOL_PLUS(4),
     MVP(5),
     MVP_PLUS(6),
+    JR_HELPER(7),
+    HELPER(8),
+    MOD(9),
+    ADMIN(10),
+    OWNER(11),
+    SLOTH(12),
+    ANGUS(13),
+    BUILD_TEAM(14),
+    BUILD_TEAM_PLUS(15),
 
 
 
