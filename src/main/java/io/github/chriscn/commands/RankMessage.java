@@ -14,9 +14,9 @@ public class RankMessage implements CommandExecutor {
             return true;
         } else {
             Player p = (Player) sender;
-            if(args.length < 1) {
+            if(args.length < 3) {
                 printHelp(p);
-            } else if(args.length > 3) {
+            } else if(args.length >= 3) {
                 String rank = args[0].toLowerCase();
                 String pN = args[1];
 
