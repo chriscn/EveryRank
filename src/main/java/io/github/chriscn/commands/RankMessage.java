@@ -1,6 +1,6 @@
 package io.github.chriscn.commands;
 
-import io.github.chriscn.RANKS;
+import io.github.chriscn.util.RANKS;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -19,7 +19,7 @@ public class RankMessage implements CommandExecutor {
 
             StringBuilder sb = new StringBuilder();
             for(int i = 2; i < args.length; i++) {
-                sb.append(i).append(" ");
+                sb.append(args[i]).append(" ");
             }
 
             String msg = sb.toString().trim();
@@ -103,7 +103,7 @@ public class RankMessage implements CommandExecutor {
 
 
     private void printMessage(Player p, String pN, RANKS rank, String msg) {
-        p.sendMessage(rank.getRank() + pN + ChatColor.WHITE + ": " + msg);
+        p.sendMessage(rank.getRank() + " " + pN + ChatColor.WHITE + ": " + msg);
     }
 
     private void printHelp(Player p) {

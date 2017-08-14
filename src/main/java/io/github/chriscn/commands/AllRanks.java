@@ -1,6 +1,6 @@
 package io.github.chriscn.commands;
 
-import io.github.chriscn.RankUtil;
+import io.github.chriscn.util.RankUtil;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

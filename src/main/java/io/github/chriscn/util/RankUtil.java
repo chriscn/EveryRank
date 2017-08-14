@@ -1,4 +1,4 @@
-package io.github.chriscn;
+package io.github.chriscn.util;
 
 import net.md_5.bungee.api.ChatColor;
 

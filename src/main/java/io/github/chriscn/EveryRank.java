@@ -2,6 +2,7 @@ package io.github.chriscn;
 
 import io.github.chriscn.commands.AllRanks;
 import io.github.chriscn.commands.RankMessage;
+import io.github.chriscn.util.RankUtil;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class EveryRank extends JavaPlugin {

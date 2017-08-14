@@ -1,4 +1,4 @@
-package io.github.chriscn;
+package io.github.chriscn.util;
 
 public enum RANKS {
     VIP(1),
