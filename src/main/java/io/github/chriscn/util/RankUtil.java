@@ -28,7 +28,8 @@ public class RankUtil {
                 ChatColor.GOLD + "[MOJANG]",
                 ChatColor.GOLD + "[YT]",
                 ChatColor.GOLD + "[APPLE]",
-                ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "]");
+                ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "]"
+        );
     }
 
 }
