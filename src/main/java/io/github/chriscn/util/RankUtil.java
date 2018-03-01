@@ -31,5 +31,4 @@ public class RankUtil {
                 ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "]"
         );
     }
-
 }
