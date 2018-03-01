@@ -7,7 +7,7 @@ import java.util.List;
 
 
 public class RankUtil {
-    public List<String> ranks;
+    List<String> ranks;
 
     public RankUtil() {
         this.ranks = Arrays.asList(
@@ -30,5 +30,9 @@ public class RankUtil {
                 ChatColor.GOLD + "[APPLE]",
                 ChatColor.RED + "[" + ChatColor.GREEN + "MC" + ChatColor.GRAY + "ProHosting" + ChatColor.RED + "]"
         );
+    }
+
+    public List<String> getRanks() {
+        return this.ranks;
     }
 }
