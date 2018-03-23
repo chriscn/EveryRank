@@ -21,6 +21,4 @@ public class EveryRank extends JavaPlugin {
         getLogger().info(getDescription().getName() + " has been disabled!");
 
     }
-
-
 }
