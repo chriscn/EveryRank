@@ -1,5 +1,5 @@
 # EveryRank
-A cool plugin that allows you to pretend you are every rank on the Hypixel Server
+A cool plugin that allows you to pretend you are every rank on the Hypixel Server. This is a little out of date - so may need some fixing!
 #### Building
 1. Clone the repo, ```git clone https://github.com/ThorinDev/EveryRank```
 2. Make sure you have the correct jar files referenced
